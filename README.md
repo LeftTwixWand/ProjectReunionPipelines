@@ -1,5 +1,6 @@
-# ProjectReunion Piplines
-This is sample solution of ProjectReunion piplines testing.
+## ProjectReunion Piplines
+
+[![Build Status](https://dev.azure.com/LeftTwixWand/Bullet/_apis/build/status/LeftTwixWand.ProjectReunionPiplines?branchName=master)](https://dev.azure.com/LeftTwixWand/Bullet/_build/latest?definitionId=6&branchName=master)
 
 Using ProjectReunion template 0.5.6 I can't restore nuget packages with `nuget restore` command.
 
