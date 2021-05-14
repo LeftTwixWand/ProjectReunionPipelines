@@ -26,7 +26,7 @@ steps:
   displayName: 'Use .NET 5.0.3 sdk'
   inputs:
     packageType: sdk
-    version: 5.0.300-preview.21228.15
+    version: '5.0.300-preview.21228.15'
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: UseDotNet@2
