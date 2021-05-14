@@ -27,6 +27,7 @@ steps:
   inputs:
     packageType: sdk
     version: '5.0.300-preview.21228.15'
+    includePreviewVersions: true
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: UseDotNet@2
