@@ -23,18 +23,18 @@ steps:
     checkLatest: true
 
 - task: UseDotNet@2
-  displayName: 'Use .NET 5.0.3 sdk'
+  displayName: 'Use .NET sdk'
   inputs:
     packageType: sdk
-    version: '5.0.300-preview.21228.15'
+    version: 5.x
     includePreviewVersions: true
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: UseDotNet@2
-  displayName: 'Use .NET 5.0.6 runtime'
+  displayName: 'Use .NET runtime'
   inputs:
     packageType: runtime
-    version: 5.0.6
+    version: 5.x
     installationPath: $(Agent.ToolsDirectory)/dotnet
 
 - task: NuGetCommand@2
