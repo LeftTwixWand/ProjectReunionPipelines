@@ -1,8 +1,14 @@
-## ProjectReunion Pipelines
+## ProjectReunion Pipelines repository is using for testing Azure Pipelines for Project Reunion solution.
 
 [![Build Status](https://dev.azure.com/LeftTwixWand/Bullet/_apis/build/status/LeftTwixWand.ProjectReunionPipelines?branchName=master)](https://dev.azure.com/LeftTwixWand/Bullet/_build/latest?definitionId=6&branchName=master)
 
-Using ProjectReunion template 0.5.6 I can't restore nuget packages with `nuget restore` command.
 
-**The error:**
-`The nuget command failed with exit code(1) and error(NU1201: Project MyProjectReunion is not compatible with uap10.0.17763 (UAP,Version=v10.0.17763). Project MyProjectReunion supports: net5.0-windows10.0.19041 (.NETCoreApp,Version=v5.0)`
+### Related issues:
+
+Opened:
+
+[Azure pipeline fails on the VSBulid step: Project Reunion requires WinRT.Runtime.dll version 1.2 or greater](https://github.com/microsoft/ProjectReunion/issues/826)
+
+Closed:
+
+[Azure pipeline fails on nuget restore](https://github.com/microsoft/ProjectReunion/issues/802)
