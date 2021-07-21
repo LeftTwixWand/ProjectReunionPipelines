@@ -5,10 +5,6 @@
 
 ### Related issues:
 
-Opened:
-
 [Azure pipeline fails on the VSBulid step: Project Reunion requires WinRT.Runtime.dll version 1.2 or greater](https://github.com/microsoft/ProjectReunion/issues/826)
-
-Closed:
 
 [Azure pipeline fails on nuget restore](https://github.com/microsoft/ProjectReunion/issues/802)
